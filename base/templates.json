@@ -6,9 +6,9 @@
     "note": "Stack de base avec PHP/MySQL/PHPMyAdmin pour les applications GInfo",
     "categories": ["PHP"],
     "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/GInfo-ECM/docker-ginfo/master/base/logos/httpd.png",
+    "logo": "https://raw.githubusercontent.com/Luio-forie/docker-ginfo-luio/master/base/logos/httpd.png",
     "repository": {
-      "url": "https://github.com/GInfo-ECM/docker-ginfo/",
+      "url": "https://github.com/Luio-forie/docker-ginfo-luio/",
       "stackfile": "stacks/sites-ginfo-apache/docker-compose.yml"
     },
     "env": [
@@ -72,9 +72,9 @@
     "note": "Stack de base avec PHP8/MySQL/PHPMyAdmin pour les applications GInfo",
     "categories": ["PHP"],
     "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/GInfo-ECM/docker-ginfo/master/base/logos/httpd.png",
+    "logo": "https://raw.githubusercontent.com/Luio-forie/docker-ginfo-luio/master/base/logos/httpd.png",
     "repository": {
-      "url": "https://github.com/GInfo-ECM/docker-ginfo/",
+      "url": "https://github.com/Luio-forie/docker-ginfo-luio/",
       "stackfile": "stacks/sites-ginfo-apache-php-8/docker-compose.yml"
     },
     "env": [
@@ -138,9 +138,9 @@
     "note": "Stack de base avec PHP/MySQL/PHPMyAdmin pour les applications GInfo",
     "categories": ["PHP","React"],
     "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/GInfo-ECM/docker-ginfo/master/base/logos/httpd.png",
+    "logo": "https://raw.githubusercontent.com/Luio-forie/docker-ginfo-luio/master/base/logos/httpd.png",
     "repository": {
-      "url": "https://github.com/GInfo-ECM/docker-ginfo/",
+      "url": "https://github.com/Luio-forie/docker-ginfo-luio/",
       "stackfile": "stacks/sites-react-symfony/docker-compose.yml"
     },
     "env": [
@@ -204,9 +204,9 @@
     "note": "Stack de base avec PHP8/PostgreSQL pour les applications GInfo",
     "categories": ["PHP"],
     "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/GInfo-ECM/docker-ginfo/master/base/logos/httpd.png",
+    "logo": "https://raw.githubusercontent.com/Luio-forie/docker-ginfo-luio/master/base/logos/httpd.png",
     "repository": {
-      "url": "https://github.com/GInfo-ECM/docker-ginfo/",
+      "url": "https://github.com/Luio-forie/docker-ginfo-luio/",
       "stackfile": "stacks/sites-ginfo-apache-php-8-psql/docker-compose.yml"
     },
     "env": [
@@ -271,9 +271,9 @@
     "note": "Stack de base Apache HTTPD (pas de PHP) pour les sites statiques des associations",
     "categories": ["HTTPD"],
     "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/GInfo-ECM/docker-ginfo/master/base/logos/httpd.png",
+    "logo": "https://raw.githubusercontent.com/Luio-forie/docker-ginfo-luio/master/base/logos/httpd.png",
     "repository": {
-      "url": "https://github.com/GInfo-ECM/docker-ginfo/",
+      "url": "https://github.com/Luio-forie/docker-ginfo-luio/",
       "stackfile": "stacks/sites-statiques/docker-compose.yml"
     },
     "env": [
@@ -333,9 +333,9 @@
     "note": "Stack de base Apache HTTPD (pas de PHP) pour les sites statiques des associations avec node 16",
     "categories": ["HTTPD"],
     "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/GInfo-ECM/docker-ginfo/master/base/logos/httpd.png",
+    "logo": "https://raw.githubusercontent.com/Luio-forie/docker-ginfo-luio/master/base/logos/httpd.png",
     "repository": {
-      "url": "https://github.com/GInfo-ECM/docker-ginfo/",
+      "url": "https://github.com/Luio-forie/docker-ginfo-luio/",
       "stackfile": "stacks/sites-statiques-node-16/docker-compose.yml"
     },
     "env": [
@@ -383,9 +383,9 @@
     "note": "Proxy HTTP/HTTPS pour les applications du GInfo",
     "categories": ["Proxy"],
     "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/GInfo-ECM/docker-ginfo/master/base/logos/squid.png",
+    "logo": "https://raw.githubusercontent.com/Luio-forie/docker-ginfo-luio/master/base/logos/squid.png",
     "repository": {
-      "url": "https://github.com/GInfo-ECM/docker-ginfo/",
+      "url": "https://github.com/Luio-forie/docker-ginfo-luio/",
       "stackfile": "stacks/proxy-squid/docker-compose.yml"
     },
     "env": [
@@ -404,9 +404,9 @@
     "note": "VPN PPTP pour le GInfo",
     "categories": ["VPN"],
     "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/GInfo-ECM/docker-ginfo/master/base/logos/generic.png",
+    "logo": "https://raw.githubusercontent.com/Luio-forie/docker-ginfo-luio/master/base/logos/generic.png",
     "repository": {
-      "url": "https://github.com/GInfo-ECM/docker-ginfo/",
+      "url": "https://github.com/Luio-forie/docker-ginfo-luio/",
       "stackfile": "stacks/vpn-pptp/docker-compose.yml"
     },
     "env": [
@@ -428,9 +428,9 @@
     "note": "Un serveur de fichier pour le GInfo",
     "categories": ["Samba"],
     "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/GInfo-ECM/docker-ginfo/master/base/logos/samba.png",
+    "logo": "https://raw.githubusercontent.com/Luio-forie/docker-ginfo-luio/master/base/logos/samba.png",
     "repository": {
-      "url": "https://github.com/GInfo-ECM/docker-ginfo/",
+      "url": "https://github.com/Luio-forie/docker-ginfo-luio/",
       "stackfile": "stacks/samba/docker-compose.yml"
     }
   },
@@ -442,9 +442,9 @@
     "note": "Un serveur pour relayer les mails du GInfo",
     "categories": ["Mail"],
     "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/GInfo-ECM/docker-ginfo/master/base/logos/postfix.png",
+    "logo": "https://raw.githubusercontent.com/Luio-forie/docker-ginfo-luio/master/base/logos/postfix.png",
     "repository": {
-      "url": "https://github.com/GInfo-ECM/docker-ginfo/",
+      "url": "https://github.com/Luio-forie/docker-ginfo-luio/",
       "stackfile": "stacks/serveur-mail/docker-compose.yml"
     },
     "env": [
@@ -468,9 +468,9 @@
     "note": "Serveur wordpress avec cron updates",
     "categories": ["Wordpress"],
     "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/GInfo-ECM/docker-ginfo/master/base/logos/wordpress.png",
+    "logo": "https://raw.githubusercontent.com/Luio-forie/docker-ginfo-luio/master/base/logos/wordpress.png",
     "repository": {
-      "url": "https://github.com/GInfo-ECM/docker-ginfo/",
+      "url": "https://github.com/Luio-forie/docker-ginfo-luio/",
       "stackfile": "stacks/wordpress-assos/docker-compose.yml"
     },
     "env": [
@@ -524,9 +524,9 @@
     "note": "Serveur Lora pour gérer les objets connectés",
     "categories": ["Lora"],
     "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/GInfo-ECM/docker-ginfo/master/base/logos/lora.png",
+    "logo": "https://raw.githubusercontent.com/Luio-forie/docker-ginfo-luio/master/base/logos/lora.png",
     "repository": {
-      "url": "https://github.com/GInfo-ECM/docker-ginfo/",
+      "url": "https://github.com/Luio-forie/docker-ginfo-luio/",
       "stackfile": "stacks/lora/docker-compose.yml"
     },
     "env": [
@@ -562,9 +562,9 @@
     "note": "Serveurs de monitoring pour gérer les conteneurs",
     "categories": ["Monitoring"],
     "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/GInfo-ECM/docker-ginfo/master/base/logos/generic.png",
+    "logo": "https://raw.githubusercontent.com/Luio-forie/docker-ginfo-luio/master/base/logos/generic.png",
     "repository": {
-      "url": "https://github.com/GInfo-ECM/docker-ginfo/",
+      "url": "https://github.com/Luio-forie/docker-ginfo-luio/",
       "stackfile": "stacks/monitoring/docker-compose.yml"
     },
     "env": [
@@ -596,9 +596,9 @@
     "note": "Serveur Unbound DNS",
     "categories": ["DNS"],
     "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/GInfo-ECM/docker-ginfo/master/base/logos/dns.png",
+    "logo": "https://raw.githubusercontent.com/Luio-forie/docker-ginfo-luio/master/base/logos/dns.png",
     "repository": {
-      "url": "https://github.com/GInfo-ECM/docker-ginfo/",
+      "url": "https://github.com/Luio-forie/docker-ginfo-luio/",
       "stackfile": "stacks/unbound/docker-compose.yml"
     }
   },
@@ -610,9 +610,9 @@
     "note": "Serveur LDAP",
     "categories": ["LDAP"],
     "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/GInfo-ECM/docker-ginfo/master/base/logos/openldap.png",
+    "logo": "https://raw.githubusercontent.com/Luio-forie/docker-ginfo-luio/master/base/logos/openldap.png",
     "repository": {
-      "url": "https://github.com/GInfo-ECM/docker-ginfo/",
+      "url": "https://github.com/Luio-forie/docker-ginfo-luio/",
       "stackfile": "stacks/ldap/docker-compose.yml"
     },
     "env": [
@@ -643,9 +643,9 @@
     "note": "WIMS",
     "categories": ["PHP"],
     "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/GInfo-ECM/docker-ginfo/master/base/logos/httpd.png",
+    "logo": "https://raw.githubusercontent.com/Luio-forie/docker-ginfo-luio/master/base/logos/httpd.png",
     "repository": {
-      "url": "https://github.com/GInfo-ECM/docker-ginfo/",
+      "url": "https://github.com/Luio-forie/docker-ginfo-luio/",
       "stackfile": "stacks/wims/docker-compose.yml"
     },
     "env": [
@@ -687,9 +687,9 @@
     "note": "Instance Nextcloud avec stockage sur le NAS du GInfo",
     "categories": ["Nextcloud"],
     "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/GInfo-ECM/docker-ginfo/master/base/logos/nextcloud.png",
+    "logo": "https://raw.githubusercontent.com/Luio-forie/docker-ginfo-luio/master/base/logos/nextcloud.png",
     "repository": {
-      "url": "https://github.com/GInfo-ECM/docker-ginfo/",
+      "url": "https://github.com/Luio-forie/docker-ginfo-luio/",
       "stackfile": "stacks/nextcloud/docker-compose.yml"
     },
     "env": [

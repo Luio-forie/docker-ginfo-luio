@@ -62,7 +62,7 @@ networks:
       com.docker.network.bridge.enable_ip_masquerade: 'false'
   proxy:
     external:
-      name: nginx-proxy-ginfo
+      name: nginx-proxy-luio
   mailing:
     external:
       name: postfix-ginfo
